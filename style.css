@@ -97,6 +97,72 @@ header .headerBox2 ul li a:hover {
     color: black;
 }
 
+.open_menu {
+    cursor: pointer;
+    padding: 20px;
+    transition: ease 0.5s;
+    display: none;
+}
+
+.close_menu_js_effet {
+    display: none;
+    transition: 0.5s;
+}
+
+nav {
+    position: fixed;
+    height: 500px;
+    width: 100%;
+    left: -100%;
+    background-color: red;
+    z-index: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.navbarr_Js {
+    left: 0px;
+    transition: ease-in-out 0.5s;
+}
+
+nav ul {
+    padding-top: 40px;
+    position: relative;
+    right: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+
+.close_menu {
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    transition: ease 0.5s;
+}
+
+.close_menu:hover {
+    font-size: 35px;
+    transition: ease 0.5s;
+}
+
+/*********************************************************************************************************/
 main {
     margin: auto;
     padding: 0 auto;
@@ -153,7 +219,7 @@ main {
 }
 
 section {
-   /* border: 1px solid gray;*/
+    /* border: 1px solid gray;*/
     margin: 0 auto;
     margin-top: 50px;
     width: 95%;
@@ -170,35 +236,42 @@ section h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
- 
+
 }
+
 .sectionBox div {
     flex-basis: 33%;
 }
+
 .sectionBox_child {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.sectionBox_child div{
+
+.sectionBox_child div {
     flex-basis: 42%;
     box-sizing: content-box;
 }
-.sectionBox_child_fondRed{
+
+.sectionBox_child_fondRed {
     background-color: red;
     padding: 8px;
 }
-.sectionBox_child_fondBlack{
+
+.sectionBox_child_fondBlack {
     background-color: black;
     padding: 8px;
     margin-bottom: 0px;
 }
+
 .sectionBox_child div img {
     width: 100%;
     height: 100%;
 }
-.sectionBox_child div p{
+
+.sectionBox_child div p {
     color: white;
     font-style: oblique;
     font-weight: bold;
@@ -215,47 +288,74 @@ section h3 {
 
 
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1100px) {
     .sectionBox div {
         flex-basis: 46%;
     }
 }
 
-@media screen and (max-width:755px){
-.splide__slide div{
-    flex-basis: 100%;
-}
-.main_contenu{
-    padding: 50px;
-}
-.main_contenu h2 {
-    color: white;
-    font-size: 42px;
-    padding-top: 0px;
-}
-.main_contenu p {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 50px;
-}
-.sectionBox div {
-    flex-basis: 95%;
-    margin: auto;
-    margin-top: 70px;
-}
-.sectionBox_child div{
-    flex-basis: 100%;
-    margin: auto;
-   
-}
-.sectionBox_child div img{
-    height: 250px;
-}
-.sectionBox_child_fondBlack{
-    position: relative;
-    bottom: 5px;
-}
+@media screen and (max-width:755px) {
+    header .headerBox1 div {
+        flex-basis: 100%;
+    }
+
+    .headerBox1_icon {
+        display: none;
+    }
+
+    .headerBox1_icon_recherche {
+        display: none;
+    }
+
+    .open_menu {
+        display: block;
+    }
+
+    .headerBox2 {
+        display: none;
+    }
+
+    .splide__slide div {
+        flex-basis: 100%;
+    }
+
+    .main_contenu {
+        padding: 50px;
+    }
+
+    .main_contenu h2 {
+        color: white;
+        font-size: 42px;
+        padding-top: 0px;
+    }
+
+    .main_contenu p {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    .sectionBox div {
+        flex-basis: 95%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .sectionBox_child div {
+        flex-basis: 100%;
+        margin: auto;
+
+    }
+
+    .sectionBox_child div img {
+        height: 250px;
+    }
+
+    .sectionBox_child_fondBlack {
+        position: relative;
+        bottom: 5px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -277,7 +377,5 @@ section h3 {
         left: 0%;
     }
 
-    .headerBox1_icon_recherche {
-        display: none;
-    }
+
 }
