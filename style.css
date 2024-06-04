@@ -111,7 +111,7 @@ header .headerBox2 ul li a:hover {
 
 nav {
     position: fixed;
-    height: 400px;
+    height: 100%;
     width: 100%;
     left: -100%;
     background-color: red;
@@ -299,9 +299,7 @@ section h3 {
         flex-basis: 100%;
     }
 
-    .headerBox1_icon {
-        display: none;
-    }
+    
 
     .headerBox1_icon_recherche {
         display: none;
@@ -361,10 +359,6 @@ section h3 {
 @media screen and (max-width:500px) {
     header .headerBox1 div {
         flex-basis: 100%;
-    }
-
-    .headerBox1_icon ul {
-        text-align: center;
     }
 
     .instagramme {
