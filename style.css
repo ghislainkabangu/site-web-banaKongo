@@ -170,7 +170,6 @@ section h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-   
     position: relative;
     bottom: 50px;
 }
@@ -194,6 +193,7 @@ section h3 {
 .sectionBox_child_fondBlack{
     background-color: black;
     padding: 8px;
+    margin-bottom: 0px;
 }
 .sectionBox_child div img {
     width: 100%;
@@ -216,7 +216,11 @@ section h3 {
 
 
 
-
+@media screen and (max-width:1100px){
+    .sectionBox div {
+        flex-basis: 46%;
+    }
+}
 
 @media screen and (max-width:750px){
 .splide__slide div{
@@ -235,6 +239,19 @@ section h3 {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 50px;
+}
+.sectionBox div {
+    flex-basis: 95%;
+}
+.sectionBox_child div{
+    flex-basis: 100%;
+}
+.sectionBox_child div img{
+    height: 250px;
+}
+.sectionBox_child_fondBlack{
+    position: relative;
+    bottom: 5px;
 }
 }
 
