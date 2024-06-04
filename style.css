@@ -170,8 +170,7 @@ section h3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
-    bottom: 50px;
+ 
 }
 .sectionBox div {
     flex-basis: 33%;
@@ -242,9 +241,13 @@ section h3 {
 }
 .sectionBox div {
     flex-basis: 95%;
+    margin: auto;
+    margin-top: 70px;
 }
 .sectionBox_child div{
     flex-basis: 100%;
+    margin: auto;
+   
 }
 .sectionBox_child div img{
     height: 250px;
