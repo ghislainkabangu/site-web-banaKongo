@@ -222,7 +222,7 @@ section h3 {
     }
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:755px){
 .splide__slide div{
     flex-basis: 100%;
 }
