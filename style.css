@@ -521,7 +521,9 @@ article div {
     article div {
         flex-basis: 100%;
     }
-
+    .videoTendance{
+        width: 100%;
+    }
     .videoTendanceBox1 {
         flex-basis: 100%;
     }
