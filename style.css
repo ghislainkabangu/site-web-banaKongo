@@ -451,46 +451,12 @@ article div {
 }
 
 .celebrite_contenaire {
-    margin: auto;
+    margin:0 auto;
     width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   
-}
-.celebrite_contenaire div {
-    word-wrap: break-word;
-    margin: 0 auto;
-}
-.celebrite_contenaire div img{
-    width: 100%;
-    height: 350px;
-}
-.celebrite_contenaireBox1 {
-    flex-basis: 55%;
-}
-
-.celebrite_contenaireBox2 {
-    flex-basis: 40%;
-}
-.celebrite_contenaire div  h4{
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-left: 10px;
-    position: relative;
-    bottom: 70px;
-}
-
-.celebrite_contenaireBox2 p{
-    text-align: center;
-}
-.celebrite_contenaireBox2 h6{
-    text-align: center;
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 
@@ -590,14 +556,8 @@ article div {
     .videoTendanceBox2 {
         flex-basis: 100%;
     }
-    .celebrite_contenaireBox1 {
-        flex-basis: 100%;
-    }
     
-    .celebrite_contenaireBox2 {
-        flex-basis: 100%;
-    
-    }
+  
 
 }
 
