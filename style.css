@@ -271,6 +271,7 @@ section h3 {
 }
 
 .sectionBox_child div p {
+    width: 80%;
     color: white;
     font-style: oblique;
     font-weight: bold;
@@ -327,7 +328,7 @@ article div {
 .articleBox div p {
     color: white;
     padding-top: 150px;
-    width: 50%;
+    width: 40%;
 }
 
 .articleBox div h5 {
