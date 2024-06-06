@@ -1,6 +1,8 @@
 body {
     margin: auto;
     padding: 0 auto;
+    background-color: white;
+    color: black;
 }
 
 * {
@@ -178,7 +180,7 @@ main {
 
 .splide__slide div {
     flex-basis: 47%;
-    height: 500px;
+
 }
 
 .main_avatar {
@@ -227,7 +229,6 @@ section {
 
 section h3 {
     font-weight: bold;
-    font-style: oblique;
     font-size: 30px;
 }
 
@@ -260,7 +261,7 @@ section h3 {
 }
 
 .sectionBox_child_fondBlack {
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(36, 35, 35);
     padding: 8px;
     margin-bottom: 0px;
 }
@@ -274,7 +275,7 @@ section h3 {
     width: 80%;
     color: white;
     font-style: oblique;
-    font-weight: bold;
+
 }
 
 /*******************************************************/
@@ -403,7 +404,7 @@ article div {
 }
 
 .videoTendanceBox2 {
-    background-color: black;
+    background-color: rgb(36, 35, 35);
     flex-basis: 40%;
     padding: 10px;
 }
@@ -427,13 +428,11 @@ article div {
 .videoTendanceBox2_contenaire div h6 {
     color: red;
     font-weight: bold;
-    font-style: oblique;
     font-size: 15px;
 }
 
 .videoTendanceBox2_contenaire div p {
     color: white;
-    font-weight: bold;
     font-style: oblique;
     font-size: medium;
 }
@@ -442,7 +441,7 @@ article div {
 .celebrite {
     margin: 0 auto;
     width: 95%;
-    margin-bottom: 500px;
+    color: black;
 }
 
 .celebrite h3 {
@@ -450,16 +449,292 @@ article div {
     font-size: 30px;
 }
 
-.celebrite_contenaire {
-    margin:0 auto;
+.celebrite_contenaire1 {
+    margin: 0 auto;
+    width: 94%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.celebrite_contenaire1 div {
+    box-sizing: content-box;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.celebrite_contenaire1 div img {
+    width: 100%;
+    height: 450px;
+}
+
+.celebrite_contenaire1_Box1 {
+    flex-basis: 65%;
+}
+
+.celebrite_contenaire1_Box2 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.celebrite_contenaire1_Box2 h5 {
+    color: red;
+    text-transform: uppercase;
+}
+
+/*************************************************************************/
+.autreCelebrite {
+    margin: 0 auto;
     width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.autreCelebrite div {
+    flex-basis: 18%;
+    box-sizing: content-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+
+.autreCelebrite div p {
+
+    width: 90%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.autreCelebrite div img {
+    width: 100%;
+    height: 200px;
+}
+
+.autreCelebrite div h5 {
+    color: red;
+}
+
+/****************************international************************************************/
+.international {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.international h3,
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.intertTitre {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.international_Contenaire {
+    margin: 0 auto;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  
+}
+
+.international_Contenaire1 {
+    flex-basis: 53%;
+    text-align: center;
+    background-image: url("album/portrait-gai-heureux-homme-africain-dans-lunettes-pointage_171337-7791.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.international_Contenaire1 p {
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.international_Contenaire1 h4 {
+    padding-top: 150px;
+}
+
+.international_Contenaire2 {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.international_Contenaire2 div {
+    flex-basis: 47%;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    word-wrap: break-word;
+}
+
+.international_Contenaire2 div img {
+    width: 100%;
+    height: 150px;
+}
+
+.international_Contenaire2 div p {
+    width: 90%;
+    padding-left: 15px;
+}
+
+.international_Contenaire2 div h5 {
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+/**************************************************musique*********************************************/
+.musique {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.musique h3,
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.musique h3 {
+    text-align: left;
+    color: black;
+}
+
+.intertTitre {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.musique_Contenaire {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.musique_Contenaire1 {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.musique_Contenaire1 div {
+    flex-basis: 47%;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    word-wrap: break-word;
+}
+
+.musique_Contenaire1 div img {
+    width: 100%;
+    height: 150px;
+}
+
+.musique_Contenaire1 div p {
+    width: 90%;
+    padding-left: 15px;
+}
+
+.musique_Contenaire1 div h5 {
+    text-transform: uppercase;
+    padding-left: 15px;
 }
 
 
+.musique_Contenaire2 {
+    flex-basis: 53%;
+    text-align: center;
+    background-image: url("album/portrait-gai-heureux-homme-africain-dans-lunettes-pointage_171337-7791.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.musique_Contenaire2 p {
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.musique_Contenaire2 h4 {
+    padding-top: 150px;
+}
+
+/**********************************gospel***************************************/
+.gospel {
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+.gospel h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.gospelTitre {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.gospelContenaire {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gospelContenaire div {
+    flex-basis: 32%;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.gospelContenaire div p {
+    padding-left: 15px;
+    padding-top: 250px;
+    width: 70%;
+}
+
+.gospelContenaire div h5 {
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.gospa {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
 
 
 
@@ -499,8 +774,10 @@ article div {
         display: none;
     }
 
+
     .splide__slide div {
         flex-basis: 100%;
+
     }
 
     .main_contenu {
@@ -545,10 +822,6 @@ article div {
         flex-basis: 100%;
     }
 
-    .videoTendance {
-        width: 100%;
-    }
-
     .videoTendanceBox1 {
         flex-basis: 100%;
     }
@@ -556,9 +829,51 @@ article div {
     .videoTendanceBox2 {
         flex-basis: 100%;
     }
-    
-  
 
+    .celebrite_contenaire1 {
+        width: 100%;
+    }
+
+    .celebrite_contenaire1_Box1 {
+        flex-basis: 100%;
+    }
+
+    .celebrite_contenaire1_Box2 {
+        flex-basis: 100%;
+    }
+
+    .autreCelebrite div {
+        flex-basis: 80%;
+    }
+
+    .international_Contenaire1 {
+        flex-basis: 100%;
+    }
+
+    .international_Contenaire2 {
+        flex-basis: 100%;
+    }
+
+    .international_Contenaire2 div {
+        flex-basis: 48%;
+    }
+
+    .musique_Contenaire1 {
+        flex-basis: 100%;
+    }
+
+    .musique_Contenaire1 div {
+        flex-basis: 48%;
+    }
+
+    .musique_Contenaire2 {
+        flex-basis: 100%;
+        margin: 5px;
+    }
+
+    .gospelContenaire div {
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width:500px) {
