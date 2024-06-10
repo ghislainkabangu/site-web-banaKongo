@@ -982,7 +982,14 @@ footer {
     article div {
         flex-basis: 100%;
     }
-
+    .videoTendance {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .videoTendance h3 {
+        padding-left: 10px;
+    }
     .videoTendanceBox1 {
         flex-basis: 100%;
     }
