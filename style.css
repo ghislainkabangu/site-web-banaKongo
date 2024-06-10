@@ -371,6 +371,7 @@ article div {
 }
 
 .videoTendanceBox {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -584,7 +585,7 @@ h4 {
 
 .international_Contenaire2 div img {
     width: 100%;
-    height: 150px;
+    height: 200px;
 }
 
 .international_Contenaire2 div p {
@@ -647,7 +648,7 @@ h4 {
 
 .musique_Contenaire1 div img {
     width: 100%;
-    height: 150px;
+    height: 200px;
 }
 
 .musique_Contenaire1 div p {
@@ -743,6 +744,7 @@ h4 {
 /**************************************sport*****************************/
 .sport {
     margin: 0 auto;
+    margin-top: 100px;
     background-color: black;
 }
 
@@ -754,30 +756,36 @@ h4 {
     padding-top: 50px;
 }
 
-.sport_contenaire {
-    margin: 0 auto;
-    margin: auto;
-background-color: black;
+.sport h6 {
+    text-align: center;
+    color: red;
+}
 
+.sport_contenaire {
+    margin: auto;
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
 .sport_contenaire div {
     flex-basis: 32%;
+    flex-basis: 30%;
     background-color: white;
-    margin-top: 15px;
+    margin-top: 25px;
     box-sizing: content-box;
     overflow: hidden;
 }
-.sport_contenaire div img{
+
+.sport_contenaire div img {
     width: 100%;
     height: 250px;
-    filter: grayscale(50);
+    /* filter: grayscale(10);*/
 }
-.sport_contenaire  div p {
+
+.sport_contenaire div p {
     padding-left: 15px;
     word-wrap: break-word;
     width: 70%;
@@ -787,11 +795,111 @@ background-color: black;
     padding-left: 15px;
     text-transform: uppercase;
 }
-.titreSport{
+
+.titreSport {
     background-color: red;
     padding: 5px;
     color: white;
 }
+
+/*************************************actualité******************/
+.actualite {
+    margin: auto;
+    width: 95%;
+}
+
+.actualite h3 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.actu {
+    border-bottom: 5px solid red;
+}
+
+.contenaire_actualite {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenaire_actualite div {
+    flex-basis: 45%;
+    margin-top: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 15px gainsboro;
+    padding-bottom: 15px;
+}
+
+.contenaire_actualite div img {
+    width: 100%;
+    height: 300px;
+}
+
+.contenaire_actualite div p {
+    padding-left: 15px;
+}
+
+.contenaire_actualite div .actuLink {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.contenaire_actualite div a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+.contenaire_actualite div a:hover {
+    background-color: inherit;
+    color: red;
+    border: 2px solid red;
+}
+
+/************************************foolter****************************/
+footer {
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+
+.contenaire_footer {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenaire_footer div {
+    margin-top: 30px;
+    flex-basis: 30%;
+}
+
+.contenaire_footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenaire_footer div h5 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.contenaire_footer div ul {
+    list-style-type: none;
+}
+
 
 
 
@@ -929,6 +1037,18 @@ background-color: black;
     }
 
     .gospelContenaire div {
+        flex-basis: 100%;
+    }
+
+    .sport_contenaire div {
+        flex-basis: 90%;
+    }
+
+    .contenaire_actualite div {
+        flex-basis: 100%;
+    }
+
+    .contenaire_footer div {
         flex-basis: 100%;
     }
 }
