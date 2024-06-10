@@ -899,25 +899,14 @@ footer {
 .contenaire_footer div ul {
     list-style-type: none;
 }
-.concept{
+
+.concept {
     color: white;
     text-align: right;
     padding-right: 30px;
     color: red;
     font-size: small;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:1100px) {
     .sectionBox div {
