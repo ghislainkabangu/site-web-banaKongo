@@ -48,7 +48,10 @@ header .headerBox1 div {
     position: relative;
     left: 5%;
 }
-
+.tiktok{
+    position: relative;
+    left: 7%;
+}
 .headerBox1_titre {
     text-align: center;
 }
@@ -569,7 +572,7 @@ h4 {
 }
 
 .international_Contenaire1 h4 {
-    padding-top: 150px;
+    padding-top: 400px;
 }
 
 .international_Contenaire2 {
@@ -597,7 +600,17 @@ h4 {
     width: 90%;
     padding-left: 15px;
 }
-
+.international_Contenaire2 div p a{
+    text-decoration: none;
+    background-color: white;
+    color: #de0000;
+    padding: 4px;
+    transition: ease-in-out 0.5s;
+}
+.international_Contenaire2 div p a:hover{
+    letter-spacing: 2px;
+    border: 1px solid #de0000;
+}
 .international_Contenaire2 div h5 {
     text-transform: uppercase;
     padding-left: 15px;
@@ -660,7 +673,17 @@ h4 {
     width: 90%;
     padding-left: 15px;
 }
-
+.musique_Contenaire1 div p a{
+    text-decoration: none;
+    background-color: white;
+    color: #de0000;
+    padding: 4px;
+    transition: ease-in-out 0.5s;
+}
+.musique_Contenaire1 div p a:hover{
+    letter-spacing: 2px;
+    border: 1px solid #de0000;
+}
 .musique_Contenaire1 div h5 {
     text-transform: uppercase;
     padding-left: 15px;
@@ -688,7 +711,7 @@ h4 {
 }
 
 .musique_Contenaire2 h4 {
-    padding-top: 150px;
+    padding-top: 400px;
 }
 
 /**********************************gospel***************************************/
