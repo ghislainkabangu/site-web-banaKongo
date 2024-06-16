@@ -1,3 +1,4 @@
+/** @format */
 
 let nav = document.getElementsByTagName("nav")[0];
 let openMenu = document.querySelector(".open_menu");
