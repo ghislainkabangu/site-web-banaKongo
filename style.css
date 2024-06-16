@@ -14,7 +14,7 @@ body {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;
-  
+
 }
 
 header {
@@ -55,18 +55,22 @@ header .headerBox1 div {
     position: relative;
     left: 5%;
 }
-.tiktok{
+
+.tiktok {
     position: relative;
     left: 7%;
 }
-.treuds{
+
+.treuds {
     position: relative;
     left: 10%;
 }
-.twiter{
+
+.twiter {
     position: relative;
     left: 12%;
 }
+
 .headerBox1_titre {
     text-align: center;
 }
@@ -114,8 +118,8 @@ header .headerBox2 ul li a {
 
 header .headerBox2 ul li a:hover {
     background-color: white;
-    border: 2px solid  #1a1a1a;
-    color:  #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
     font-weight: bold;
 }
 
@@ -497,6 +501,7 @@ article div {
 .celebrite_contenaire1_Box1 {
     flex-basis: 65%;
 }
+
 .celebrite_contenaire1_Box1_h5 {
     background-color: #de0000;
     color: white;
@@ -504,24 +509,29 @@ article div {
     text-transform: uppercase;
 
 }
-.celebrite_contenaire1_Box1 a{
+
+.celebrite_contenaire1_Box1 a {
     text-decoration: none;
     color: black;
 }
+
 .celebrite_contenaire1_Box2 {
     flex-basis: 30%;
     text-align: center;
 }
-.celebrite_contenaire1_Box2_h5{
+
+.celebrite_contenaire1_Box2_h5 {
     background-color: #de0000;
     color: white;
     padding: 4px;
     text-transform: uppercase;
 }
-.celebrite_contenaire1_Box2 a{
+
+.celebrite_contenaire1_Box2 a {
     text-decoration: none;
     color: black;
 }
+
 /*******************************autre célébrité**********************************************/
 .autreCelebrite {
     margin: 0 auto;
@@ -539,9 +549,11 @@ article div {
     text-align: center;
     transition: ease-in-out 0.5s;
 }
-.autreCelebrite div:hover{
+
+.autreCelebrite div:hover {
     box-shadow: 0px 0px 5px gainsboro;
 }
+
 .autreCelebrite div p {
 
     width: 90%;
@@ -553,11 +565,13 @@ article div {
     width: 100%;
     height: 200px;
 }
-.autreCelebrite div a{
+
+.autreCelebrite div a {
     color: #1a1a1a;
     text-decoration: none;
 }
-.autreCelDAte  {
+
+.autreCelDAte {
     color: white;
     background-color: #de0000;
     padding: 3px;
@@ -640,7 +654,8 @@ h4 {
     width: 90%;
     padding-left: 15px;
 }
-.international_Contenaire2 div p a{
+
+.international_Contenaire2 div p a {
     text-decoration: none;
     background-color: white;
     text-transform: uppercase;
@@ -648,10 +663,12 @@ h4 {
     padding: 4px;
     transition: ease-in-out 0.5s;
 }
-.international_Contenaire2 div p a:hover{
+
+.international_Contenaire2 div p a:hover {
     letter-spacing: 2px;
     border: 1px solid #de0000;
 }
+
 .international_Contenaire2 div h5 {
     text-transform: uppercase;
     padding-left: 15px;
@@ -714,7 +731,8 @@ h4 {
     width: 90%;
     padding-left: 15px;
 }
-.musique_Contenaire1 div p a{
+
+.musique_Contenaire1 div p a {
     text-decoration: none;
     background-color: white;
     color: #de0000;
@@ -722,10 +740,12 @@ h4 {
     text-transform: uppercase;
     transition: ease-in-out 0.5s;
 }
-.musique_Contenaire1 div p a:hover{
+
+.musique_Contenaire1 div p a:hover {
     letter-spacing: 2px;
     border: 1px solid #de0000;
 }
+
 .musique_Contenaire1 div h5 {
     text-transform: uppercase;
     padding-left: 15px;
@@ -860,20 +880,23 @@ h4 {
     word-wrap: break-word;
     width: 70%;
 }
-.sport_contenaire div p a{
+
+.sport_contenaire div p a {
     border: 1px solid #1a1a1a;
     font-size: small;
     color: #1a1a1a;
     text-decoration: none;
     padding: 4px;
-    text-transform: uppercase;   
+    text-transform: uppercase;
     transition: ease-in-out 0.5s;
 }
-.sport_contenaire div p a:hover{
+
+.sport_contenaire div p a:hover {
     border: none;
     background-color: #1a1a1a;
     color: white;
 }
+
 .sport_contenaire div h5 {
     padding-left: 15px;
     text-transform: uppercase;
@@ -968,18 +991,22 @@ footer {
     margin-top: 30px;
     flex-basis: 30%;
 }
-.contenaire_footer div img{
+
+.contenaire_footer div img {
     width: 350px;
 }
-.nomBanaKongo{
+
+.nomBanaKongo {
     font-weight: bold;
 }
+
 .contenaire_footer div a {
     text-decoration: none;
     color: white;
-  
+
 }
-.contenaire_footer div a:hover{
+
+.contenaire_footer div a:hover {
     font-weight: bold;
     transition: 0.5s;
 }
@@ -989,9 +1016,11 @@ footer {
     text-transform: uppercase;
     font-size: 25px;
 }
-.contenaire_footer div h5 a{
+
+.contenaire_footer div h5 a {
     color: red;
 }
+
 .contenaire_footer div ul {
     list-style-type: none;
 }
