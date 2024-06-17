@@ -534,6 +534,7 @@ article div {
 /*******************************autre célébrité**********************************************/
 .autreCelebrite {
     margin: 0 auto;
+    margin-top: 50px;
     width: 90%;
     display: flex;
     justify-content: space-evenly;
@@ -822,12 +823,24 @@ h4 {
     padding-left: 15px;
     text-transform: uppercase;
 }
-
 .gospa {
     background-color: #de0000;
     color: white;
     padding: 5px;
 }
+.gospelContenaire div p a{
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    color: #1a1a1a;
+    padding: 4px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+}
+.gospelContenaire div p a:hover{
+    letter-spacing: 2px;
+}
+
 
 /**************************************sport*****************************/
 .sport {
