@@ -38,16 +38,20 @@ header .headerBox1 div {
     list-style-type: none;
     display: inline-block;
     padding: 0px;
-    background-color: white;
-    border-radius: 5px;
+    
 }
 
 .headerBox1_icon ul li a {
     text-decoration: none;
     padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+    transition: ease-in-out 0.5s;
    
 }
-
+.headerBox1_icon ul li a:hover{
+    padding: 7px;
+}
 .instagramme {
     position: relative;
     left: 3%;
@@ -295,14 +299,13 @@ section h3 {
 
 .sectionBox_child div img {
     width: 100%;
-    height: 100%;
+    height:100%;
 }
 
 .sectionBox_child div p {
     width: 80%;
     color: white;
     font-style: oblique;
-
 }
 
 /*******************************************************/
@@ -1022,12 +1025,30 @@ footer {
 .contenaire_footer div ul {
     list-style-type: none;
 }
-
+.footer_Link{
+    text-align: center;
+    list-style-type: none;
+    padding-top: 50px;
+}
+.footer_Link li{
+    display: inline-block;
+    padding: 5px;
+}
+.footer_Link li a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+}
+.footer_Link li a:hover{
+    padding: 7px;
+}
 .concept {
-    color: white;
+    text-align: center;
     text-align: right;
-    padding-right: 30px;
-    color: red;
+    padding-right: 15px;
+    color:white;
     font-size: small;
 }
 
@@ -1090,6 +1111,7 @@ footer {
     .sectionBox_child div {
         flex-basis: 100%;
         margin: auto;
+        margin-top: 0px;
 
     }
 
@@ -1099,7 +1121,7 @@ footer {
 
     .sectionBox_child_fondBlack {
         position: relative;
-        bottom: 5px;
+        bottom: 10px;
     }
 
     article div {
