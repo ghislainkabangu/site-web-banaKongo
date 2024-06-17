@@ -206,6 +206,7 @@ main {
 
 .splide__slide div {
     flex-basis: 47%;
+    height: 500px;
 
 }
 
@@ -237,7 +238,7 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 180px;
-    padding-left: 200px;
+    padding-left: 50px;
 }
 
 .barre {
