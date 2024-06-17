@@ -208,8 +208,6 @@ main {
 
 .splide__slide div {
     flex-basis: 47%;
-    height: 500px;
-
 }
 
 .main_avatar {
@@ -218,7 +216,7 @@ main {
 
 .main_avatar img {
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
 .main_contenu {
@@ -1154,7 +1152,7 @@ footer {
     }
 
     .international_Contenaire2 div {
-        flex-basis: 48%;
+        flex-basis: 100%;
     }
 
     .musique_Contenaire1 {
@@ -1162,7 +1160,7 @@ footer {
     }
 
     .musique_Contenaire1 div {
-        flex-basis: 48%;
+        flex-basis: 98%;
     }
 
     .musique_Contenaire2 {
