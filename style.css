@@ -1082,8 +1082,8 @@ footer {
         text-transform: uppercase;
         font-weight: bold;
         padding-top: 50px;
+        padding-left: 0px;
     }
-
     .sectionBox div {
         flex-basis: 95%;
         margin: auto;
