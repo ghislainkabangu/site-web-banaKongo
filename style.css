@@ -81,6 +81,8 @@ header .headerBox1 div {
 
 .headerBox1_titre h1 {
     color: white;
+    position: relative;
+    bottom: 15px;
 }
 
 .headerBox1_icon_recherche p {
@@ -1102,6 +1104,13 @@ footer {
 
     .headerBox1_icon_recherche {
         display: none;
+    }
+
+    .headerBox1_titre h1 {
+        color: white;
+        position: relative;
+        bottom: 0px;
+
     }
 
     .open_menu {
