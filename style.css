@@ -204,6 +204,7 @@ main {
 }
 .splide_bloc{
     padding: 50px;
+    word-wrap: break-word;
 }
 .splide__slide h2{
     font-size: 60px;
@@ -213,6 +214,7 @@ main {
     font-size: 20px;
     color: white;
 }
+
 #splide1{
     background-image: url("https://pepelenews.wordpress.com/wp-content/uploads/2023/12/img_1725.jpeg?w=656&h=300&crop=1");
     background-repeat: no-repeat;
@@ -239,51 +241,19 @@ main {
     background-position: center;
 }
 #splide5{
+    background-image: url("https://actualite.cd/sites/default/files/styles/800_600/public/2024-04/WhatsApp%20Image%202024-04-01%20at%2020.47.59.jpeg?itok=1Xdyexga");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #splide6{
+    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2024/06/22/thumbs_b_c_a6f73317ac1a196c63f331dc95470ff3.jpg?v=125353");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-
-.main_avatar {
-    text-align: center;
-}
-
-.main_avatar img {
-    width: 100%;
-    height: 500px;
-}
-
-.main_contenu {
-    padding: 0 auto;
-}
-
-.main_contenu h2 {
-    /*color: white;*/
-    font-size: 42px;
-    padding-top: 80px;
-}
-
-.main_contenu p {
-   /* color: white;*/
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 180px;
-    padding-left: 50px;
-}
-
-.barre {
-    color: #de0000;
-    padding-left: 10px;
-    position: relative;
-    bottom: 7px;
-}
-
+/****************************************section******************************************/
 section {
     /* border: 1px solid gray;*/
     margin: 0 auto;
@@ -1123,7 +1093,9 @@ footer {
     .headerBox2 {
         display: none;
     }
-
+    .splide_bloc{
+        padding:20px;
+    }
 
     .sectionBox div {
         flex-basis: 95%;
