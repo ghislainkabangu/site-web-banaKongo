@@ -194,21 +194,61 @@ nav ul li a:hover {
 main {
     margin: auto;
     padding: 0 auto;
-    background-color: gray;
-    background-color: #317db1;
+  /*  background-color: gray;
+    background-color: #317db1;*/
     /*background-color: #1a1a1a;*/
 }
 
 .splide__slide {
-    padding: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    padding: 0 auto;  
+}
+.splide_bloc{
+    padding: 50px;
+}
+.splide__slide h2{
+    font-size: 60px;
+    color: white;
+}
+.splide__slide p{
+    font-size: 20px;
+    color: white;
+}
+#splide1{
+    background-image: url("https://pepelenews.wordpress.com/wp-content/uploads/2023/12/img_1725.jpeg?w=656&h=300&crop=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#splide2{
+    background-image: url("https://plus.unsplash.com/premium_photo-1695449439526-9cebdbfa1a2c?q=80&w=2009&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#splide3{
+    background-image: url("https://www.musicinafrica.net/sites/default/files/styles/article_slider_large/public/images/article/202405/mikekalambay1.jpg?itok=r74O-bXA");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#splide4{
+    background-image: url("https://mbote.cd/app/uploads/2017/06/General-Kanyama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#splide5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#splide6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.splide__slide div {
-    flex-basis: 47%;
-}
 
 .main_avatar {
     text-align: center;
@@ -224,17 +264,13 @@ main {
 }
 
 .main_contenu h2 {
-    color: white;
+    /*color: white;*/
     font-size: 42px;
     padding-top: 80px;
 }
 
-.bandana {
-    color: #de0000;
-}
-
 .main_contenu p {
-    color: white;
+   /* color: white;*/
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 180px;
@@ -1089,28 +1125,6 @@ footer {
     }
 
 
-    .splide__slide div {
-        flex-basis: 100%;
-
-    }
-
-    .main_contenu {
-        padding: 50px;
-    }
-
-    .main_contenu h2 {
-        color: white;
-        font-size: 42px;
-        padding-top: 0px;
-    }
-
-    .main_contenu p {
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        padding-top: 50px;
-        padding-left: 0px;
-    }
     .sectionBox div {
         flex-basis: 95%;
         margin: auto;
