@@ -15,11 +15,13 @@ body {
 
 header {
     padding: 0 auto;
+  
 }
 
 header .headerBox1 {
     margin: auto;
     background-color: #de0000;
+    box-shadow: 0px 0px 5px gray;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -49,7 +51,9 @@ header .headerBox1 div {
 .headerBox1_icon ul li a:hover {
     padding: 7px;
 }
-
+.fa-brands{
+    color: red;
+}
 .instagramme {
     position: relative;
     left: 3%;
@@ -205,19 +209,23 @@ main {
 
 .splide__slide {
     padding: 0 auto;
+    box-sizing: content-box;
 }
 
 .splide_bloc {
     padding: 50px;
     word-wrap: break-word;
+    box-sizing: content-box;
+    height: 100%;
+    
 }
 
-.splide__slide h2 {
+.splide_bloc h2 {
     font-size: 60px;
     color: white;
 }
 
-.splide__slide p {
+.splide_bloc p {
     font-size: 20px;
     color: white;
 }
@@ -227,6 +235,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
 }
 
@@ -285,7 +294,7 @@ section h3 {
 }
 
 .sectionBox div {
-    flex-basis: 33%;
+    flex-basis: 30%;
 }
 
 .sectionBox_child {
@@ -296,18 +305,16 @@ section h3 {
 }
 
 .sectionBox_child div {
-    flex-basis: 42%;
+    flex-basis: 50%;
     box-sizing: content-box;
 }
 
 .sectionBox_child_fondRed {
-    background-color: #de0000;
-    padding: 8px;
+   background-color: #de0000;
 }
 
 .sectionBox_child_fondBlack {
     background-color: #1a1a1a;
-    padding: 8px;
     margin-bottom: 0px;
 }
 
@@ -319,9 +326,17 @@ section h3 {
 .sectionBox_child div p {
     width: 80%;
     color: white;
+   
+    word-wrap: break-word;
+    padding-left: 20px;
     font-style: oblique;
 }
-
+.sectionBox_child div ul{
+    list-style-type: none;
+}
+.sectionBox_child div ul li{
+    display: inline-block;
+}
 /*******************************************************/
 article {
     margin: 0 auto;
@@ -353,6 +368,7 @@ article div {
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
+
 }
 
 .articleBoxchils2 {
@@ -1088,9 +1104,9 @@ footer {
 }
 
 @media screen and (max-width:1100px) {
-    .sectionBox div {
+   /* .sectionBox div {
         flex-basis: 46%;
-    }
+    }*/
 }
 
 @media screen and (max-width:755px) {
@@ -1124,7 +1140,7 @@ footer {
     .splide_bloc {
         padding: 20px;
     }
-
+  
     .sectionBox div {
         flex-basis: 95%;
         margin: auto;
