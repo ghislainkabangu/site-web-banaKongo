@@ -643,14 +643,27 @@ h4 {
 .international_Contenaire1 {
     flex-basis: 53%;
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9uZGlhbHxlbnwwfHwwfHx8MA%3D%3D");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    text-align: center;
     overflow: hidden;
     word-wrap: break-word;
+    animation: animGlobe 5s alternate infinite;
+}
+@keyframes animGlobe {
+    0%{
+        background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9uZGlhbHxlbnwwfHwwfHx8MA%3D%3D");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        text-align: center;
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdy_SFAIzPai8jLBhVuI5AO2pCkBVXZaC_ag&s");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        text-align: center;
+    }
 }
 
 .international_Contenaire1 p {
