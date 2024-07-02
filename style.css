@@ -1199,6 +1199,16 @@ footer {
         padding: 20px;
     }
 
+    .splide_bloc h2 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .splide_bloc p {
+        font-size: 10px;
+        color: white;
+    }
+
     .sectionBox div {
         flex-basis: 95%;
         margin: auto;
