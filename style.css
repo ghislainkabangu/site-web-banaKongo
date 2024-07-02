@@ -99,9 +99,11 @@ header .headerBox1 div {
 .headerBox1_icon_recherche p a {
     text-decoration: none;
 }
-.fa-solid{
+
+.fa-solid {
     font-size: 20px;
 }
+
 header .headerBox2 {
     text-align: center;
     padding: 2px;
