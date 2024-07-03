@@ -63,14 +63,10 @@
         <!--second bloc du header-->
 
         <div class="nav_mobile">
-            <a class="open_menu" title="Cliquez pour accéder au menu "><svg xmlns="http://www.w3.org/2000/svg"
-                    width="24" height="21">
-                    <g fill="red" fill-rule="evenodd">
-                        <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
-                    </g>
-                </svg></a>
+            <a class="open_menu" title="Cliquez pour accéder au menu "><i class="fa-solid fa-bars"
+                    style="color: red;"></i></a>
             <nav>
-                <a class="close_menu" title="Fermer le menu">X</a>
+                <a class="close_menu" title="Fermer le menu"><i class="fa-solid fa-xmark"></i></a>
                 <ul>
                     <li><a href="#actualite" title="actualités" class="link">actualités</a></li>
                     <li><a href="#celebrite" title="célébrités" class="link">célébrités</a></li>
@@ -754,6 +750,11 @@
             type: "loop",
             autoplay: true,
             interval: 5000,
+            breakpoints:{
+                750:{
+                    pagination:false
+                }
+            }
         });
         splide.mount();
     });
